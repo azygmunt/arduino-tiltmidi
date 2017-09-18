@@ -26,7 +26,7 @@ void setup() {
 
 void loop() {
 
-	// Get the X, Y, anx Z axis values from the device
+	// Get the X, Y, and Z axis values from the device
 	xVal = scale(accel.readAxis('x'));   // Read X Axis
 	yVal = scale(accel.readAxis('y'));   // Read Y Axis
 	zVal = scale(accel.readAxis('z'));   // Read Z Axis
